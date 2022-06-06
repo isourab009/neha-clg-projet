@@ -1,6 +1,6 @@
 # neha-clg-projet
 
-web = read.csv('[website-traffic.csv]')
+web = read.csv("website-traffic.csv")
 # Re-order the factors in this order
 day.names = c("Saturday", "Sunday", "Monday", "Tuesday", "Wednesday","Thursday", "Friday" )
 days = factor(web$DayOfWeek, level=day.names)
